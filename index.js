@@ -7,6 +7,7 @@
 // @match        https://web.telegram.org/*
 // @grant        none
 // ==/UserScript==
+
 (function () {
   "use strict";
 
