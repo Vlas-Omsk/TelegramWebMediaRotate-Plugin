@@ -91,10 +91,7 @@
     const mediaViewerButtons = document.querySelector(".media-viewer-buttons");
 
     if (mediaViewerButtons && !document.querySelector("#rotate-button")) {
-      const downloadButton = Array.prototype.find.call(
-        mediaViewerButtons.querySelectorAll(".btn-icon"),
-        (x) => x.innerText === ""
-      );
+      const downloadButton = mediaViewerButtons.querySelectorAll(".btn-icon")[2];
 
       downloadButton.after(createButton());
     }
