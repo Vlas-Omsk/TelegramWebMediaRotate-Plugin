@@ -2,8 +2,8 @@
 // @name         Rotate Telegram Web
 // @namespace    http://tampermonkey.net/
 // @version      2.0
-// @description  Поворот интерфейса Telegram Web с фиксированной кнопкой
-// @author       Ваше имя
+// @description  Addding button to rotate images and videos
+// @author       Pink team
 // @match        https://web.telegram.org/*
 // @grant        none
 // ==/UserScript==
