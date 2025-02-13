@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Rotate Telegram Web
+// @namespace    http://tampermonkey.net/
+// @version      2.0
+// @description  Поворот интерфейса Telegram Web с фиксированной кнопкой
+// @author       Ваше имя
+// @match        https://web.telegram.org/*
+// @grant        none
+// ==/UserScript==
 (function () {
   "use strict";
 
